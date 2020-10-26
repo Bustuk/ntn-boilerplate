@@ -2,5 +2,5 @@
   "date": "2020-10-26T19:19:04.394Z",
   "title": "To mój pierwszy blog",
   "description": "Opis opis ",
-  "body": "# Heading 1\n\n\n\n> wrzucam cytat\n>\n> 1. lista\n>\n>    ```c\n>    kod pisze tutaj\n>    ```"
+  "body": "# Heading 1\n\n![Obrazek](/img/gad.png \"Obrazek\")\n\nwrzucam cytat\n\n1. lista\n\n   ```c\n   kod pisze tutaj\n   ```"
 }
