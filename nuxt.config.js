@@ -54,7 +54,7 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#f3f5f4' },
+  loading: { color: '#f3f5f4', height: '15px' },
   /*
    ** Global CSS
    */
@@ -62,7 +62,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ['@/plugins/vue-fontawesome.js'],
   /*
    ** Nuxt.js dev-modules
    */
@@ -95,7 +95,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) { }
   },
   /*
    ** Custom additions configuration

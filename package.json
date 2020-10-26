@@ -15,6 +15,9 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
     "@nuxtjs/markdownit": "^1.2.6",
     "nuxt": "^2.14.6"
   },
