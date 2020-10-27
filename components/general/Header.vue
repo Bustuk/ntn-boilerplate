@@ -8,10 +8,10 @@
         <nuxt-link class="btn block" to="/">Strona główna</nuxt-link>
       </li>
       <li class="flex-1 flex-grow-0 mr-2 text-big flex items-center link">
-        <nuxt-link class="btn block text-accent-900" to="/blog">Blog</nuxt-link>
+        <nuxt-link class="btn block" to="/blog">Blog</nuxt-link>
       </li>
       <li class="flex-1 flex-grow-0 flex items-center link">
-        <nuxt-link class="btn block hover:bg-accent-900" to="/projects">O nas</nuxt-link>
+        <nuxt-link class="btn block" to="/projects">O nas</nuxt-link>
       </li>
       <li class="flex-1 flex-grow-0 flex items-center link relative">
         <SocialIcon :link="''" :icon="'youtube'" />
@@ -58,6 +58,11 @@ export default {
     /* &:hover {
       @apply text-white;
     } */
+  }
+}
+.dark-mode {
+  & .btn {
+    @apply text-accent-100;
   }
 }
 </style>

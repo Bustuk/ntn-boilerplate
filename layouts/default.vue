@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div id="fb-root"></div>
-    <div class="fb-customerchat" attribution="setup_tool" page_id="103764398106758" theme_color="#67b868"></div>
+    <div class="fb-customerchat" attribution="setup_tool" page_id="103764398106758" theme_color="#105F33"></div>
     <Header />
     <ColorModePicker />
     <nuxt />

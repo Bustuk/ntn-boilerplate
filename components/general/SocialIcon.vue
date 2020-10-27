@@ -64,13 +64,19 @@ export default {
   width: 0;
 }
 .icon-buttons:hover span {
-  width: 2.7rem;
-  height: 2.7rem;
-  border-radius: 2.7rem;
-  margin: -1.35rem;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 2.8rem;
+  margin: -1.4rem;
 }
 .icon-buttons:hover svg {
   color: theme('colors.primary.100');
   fill: theme('colors.primary.100');
+}
+
+.dark-mode {
+  & .icon-buttons:hover {
+    background-color: inherit;
+  }
 }
 </style>
