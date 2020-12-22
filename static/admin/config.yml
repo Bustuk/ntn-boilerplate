@@ -3,8 +3,8 @@ logo_url: https://ntn-boilerplate.netlify.app/icon.png
 
 publish_mode: editorial_workflow
 backend:
-  name: test-repo
-  #name: git-gateway
+  #name: test-repo
+  name: git-gateway
   branch: master
 
 media_folder: static/img
