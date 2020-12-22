@@ -68,7 +68,7 @@ collections:
     folder: 'assets/content/people'
     create: true
     format: 'json'
-    slug: '{{slug}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     preview_path: 'people/{{slug}}'
     # filter: { field: 'status', value: 'story' }
     fields:

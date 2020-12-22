@@ -11,7 +11,7 @@
         <nuxt-link class="btn block" to="/blog">Blog</nuxt-link>
       </li>
       <li class="flex-1 flex-grow-0 mr-2 flex items-center link">
-        <nuxt-link class="btn block" to="/projects">O nas</nuxt-link>
+        <nuxt-link class="btn block" to="/people">O nas</nuxt-link>
       </li>
       <li class="flex-1 ml-2 flex-grow-0 flex items-center link relative">
         <SocialIcon :link="''" :icon="'youtube'" />

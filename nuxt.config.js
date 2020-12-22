@@ -10,7 +10,7 @@ const dynamicContentPath = 'assets/content' // ? No prepending/appending backsla
 const dynamicRoutes = getDynamicPaths(
   {
     blog: 'blog/*.json',
-    projects: 'projects/*.json'
+    people: 'people/*.json'
   },
   dynamicContentPath
 )
